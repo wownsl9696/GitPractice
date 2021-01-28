@@ -33,7 +33,8 @@ public class F_one {
 				if(name.equals(name)) {
 					s.remove(0);
 					System.out.println("전화번호가 삭제되었습니다.");
-					break;
+				} else {
+					System.out.println("찾는 이름이 없습니다.");
 				}
 			} else if (num == 3) {
 				System.out.print("이름 : ");
