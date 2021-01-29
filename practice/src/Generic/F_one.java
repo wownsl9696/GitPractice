@@ -1,13 +1,13 @@
 package Generic;
 
+import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.Vector;
 
 public class F_one {
 
 	public static void main(String[] args) {
 //		Vector<Integer> num2 = new Vector<Integer>();
-		Vector<String> s = new Vector<String>();
+		ArrayList<String> s = new ArrayList<String>();
 		Scanner sc = new Scanner(System.in);
 
 		boolean call = true;
